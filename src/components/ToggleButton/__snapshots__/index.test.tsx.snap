@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleButton /> renders correctly 1`] = `
+<style__Container>
+  <style__Label>
+    A
+  </style__Label>
+  <style__CheckBoxWrapper>
+    <style__CheckBox
+      checked={false}
+      id="test1"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <style__CheckBoxLabel
+      htmlFor="test1"
+    />
+  </style__CheckBoxWrapper>
+  <style__Label>
+    B
+  </style__Label>
+</style__Container>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridView /> renders correctly 1`] = `
+<style__Container>
+  <style__Row>
+    <style__Item
+      key="$grid_item_0"
+    >
+      <div
+        key="1"
+      >
+        Item 1
+      </div>
+    </style__Item>
+    <style__Item
+      key="$grid_item_1"
+    >
+      <div
+        key="2"
+      >
+        Item 2
+      </div>
+    </style__Item>
+  </style__Row>
+</style__Container>
+`;

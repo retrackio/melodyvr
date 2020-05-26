@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CarouselView/> renders correctly 1`] = `
+<Fragment>
+  <style__Container>
+    <style__Row
+      style={
+        Object {
+          "transform": "translateX(0px)",
+          "width": 0,
+        }
+      }
+    >
+      <style__Item
+        key="carousel_item_0"
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+      >
+        <div
+          key="1"
+        >
+          item 1
+        </div>
+      </style__Item>
+      <style__Item
+        key="carousel_item_1"
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+      >
+        <div
+          key="2"
+        >
+          item 2
+        </div>
+      </style__Item>
+    </style__Row>
+  </style__Container>
+  <button
+    disabled={true}
+    name="prev"
+    onClick={[Function]}
+  >
+    Prev
+  </button>
+  <button
+    disabled={false}
+    name="next"
+    onClick={[Function]}
+  >
+    Next
+  </button>
+</Fragment>
+`;

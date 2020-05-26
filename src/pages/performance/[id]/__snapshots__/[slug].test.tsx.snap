@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Performance /> page renders correctly 1`] = `
+<Fragment>
+  <Head>
+    <title>
+      Performance - 
+      Some performance
+    </title>
+    <meta
+      content="Performance - Some performance"
+      key="title"
+      property="og:title"
+    />
+  </Head>
+  <Wrapper>
+    <PerformanceDetails
+      performance={
+        Object {
+          "title": "Some performance",
+        }
+      }
+    />
+    <Link
+      href="/"
+    >
+      <a>
+        Back to homepage
+      </a>
+    </Link>
+  </Wrapper>
+</Fragment>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCard /> renders correctly 1`] = `
+<style__Container>
+  <Link
+    as="/performance/2/some_slug"
+    href="/performance/[id]/[slug]"
+    passHref={true}
+  >
+    <style__Link />
+  </Link>
+  <style__Wrapper
+    accentColor="F52459"
+    image="hero_image.jpg"
+  >
+    <style__Title
+      backgroundColor="F52459"
+    >
+      Imagine Dragons
+    </style__Title>
+    <ProductPrice
+      isFree={false}
+      price="9.99"
+    />
+    <style__Description
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<i>Performance contains flashing or strobe lighting</i>.",
+        }
+      }
+    />
+  </style__Wrapper>
+</style__Container>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductPrice /> renders correctly when product is free 1`] = `
+<style__Container>
+  FREE
+</style__Container>
+`;
+
+exports[`<ProductPrice /> renders correctly when product is not free and a price is available 1`] = `
+<style__Container>
+  <span>
+    £
+    12.54
+  </span>
+</style__Container>
+`;
+
+exports[`<ProductPrice /> renders correctly when product is not free and no price is available 1`] = `
+<style__Container>
+  N/A
+</style__Container>
+`;

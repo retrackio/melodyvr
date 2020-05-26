@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Wrapper /> is rendered correctly with a toolbar 1`] = `
+<Fragment>
+  <Memo(GlobalStyleComponent) />
+  <Memo(GlobalStyleComponent) />
+  <style__Header>
+    <style__HeaderTitle>
+      <Link
+        href="/"
+      >
+        <a>
+          <Logo />
+        </a>
+      </Link>
+    </style__HeaderTitle>
+    <div>
+      I am the toolbar
+    </div>
+  </style__Header>
+  <style__MainContainer>
+    some content
+  </style__MainContainer>
+</Fragment>
+`;
+
+exports[`<Wrapper /> is rendered correctly without a toolbar 1`] = `
+<Fragment>
+  <Memo(GlobalStyleComponent) />
+  <Memo(GlobalStyleComponent) />
+  <style__Header>
+    <style__HeaderTitle>
+      <Link
+        href="/"
+      >
+        <a>
+          <Logo />
+        </a>
+      </Link>
+    </style__HeaderTitle>
+  </style__Header>
+  <style__MainContainer>
+    some content
+  </style__MainContainer>
+</Fragment>
+`;
